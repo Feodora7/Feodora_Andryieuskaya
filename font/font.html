@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FONT</title>
+  </head>
+  <body>
+    <p>
+      При кодировании цвета в устаревшем теге FONT можно указывать некоторые
+      забавные значения, например:
+      <font color="#BruceWillis">BruceWillis</font>
+      <font color="#CANDY">CANDY</font>
+      <h3>Как это работает?</h3>
+    </p>
+    <font color="#BruceWillis" style="font-size: 20px;">BruceWillis:</font>
+    <ul>
+        <li>Заменяем все неправильные шестнадцатеричные символы нулями 0, BruceWillis == B00CE000000</li>
+        <li>Добавляем нули до  до количества знаков, делимого на 3, тзначит необходимо добавить еще 0, получаем B00CE 0000 0000</li>
+        <li>Разбиваем на три группы RGB: (B00c, e000, 0000)</li>
+        <li>Обрезаем каждый из аргументов справа, оставляя 2 символа, и получаем результат: #B0e000 или он же rgb(176, 224, 0).</li>
+      </ul>
+      <font color="#CANDY" style="font-size: 20px;">Candy:</font>
+      <p>В данном случае применяем эти же правила и получаем: #CA0D00, rgb(202, 13, 0)</p>
+  </body> 
+  
+
+</html>
+
+
