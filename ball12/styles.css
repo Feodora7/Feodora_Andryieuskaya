@@ -4,27 +4,44 @@
 }
 .menu {
   float: left;
-  position: relative;
+
   width: 20%;
-  color: #3e54ac;
   background-color: #3e54ac;
-  height: 100%;
 }
 
 .content {
-  position: relative;
   margin-left: 20%;
   margin-right: 200px;
-  color: #bface2;
   background-color: #bface2;
-  height: 100%;
 }
 
 .banner {
-  position: relative;
   float: right;
   width: 200px;
   background: #655dbb;
-  color: #655dbb;
+}
+.ball-wrapper {
+  position: relative;
   height: 100%;
+}
+
+.ball-wrapper img {
+  position: absolute;
+  width: 100px;
+}
+.ball-wrapper img:first-child {
+  top: 0;
+  left: 0;
+}
+.ball-wrapper img:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+.ball-wrapper img:nth-child(3) {
+  bottom: 0;
+  left: 0;
+}
+.ball-wrapper img:last-child {
+  bottom: 0;
+  right: 0;
 }
