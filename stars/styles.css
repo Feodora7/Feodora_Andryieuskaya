@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+}
+
+.stars-empty {
+  position: relative;
+  margin: 0 auto;
+  width: 550px;
+  overflow: hidden;
+}
+
+.stars-full {
+  position: absolute;
+  width: 550px;
+  left: -550px;
+  top: 0;
+}
+
+.stars-empty > div:not(.stars-full) {
+  display: inline-block;
+  margin-right: 25px;
+  height: 77px;
+  width: 74px;
+  vertical-align: top;
+  background: url("assets/star0.png") no-repeat;
+  cursor: pointer;
+}
+
+.stars-empty > div {
+  margin-right: 25px;
+}
+
+.stars-full > div {
+  display: inline-block;
+  margin-right: 25px;
+  height: 77px;
+  width: 75px;
+  background: url("assets/star1.png") no-repeat;
+  cursor: pointer;
+}
+.stars-empty > div:nth-child(1):hover ~ .stars-full {
+  left: -417px;
+}
+.stars-empty > div:nth-child(2):hover ~ .stars-full {
+  left: -312px;
+}
+
+.stars-empty > div:nth-child(3):hover ~ .stars-full {
+  left: -210px;
+}
+.stars-empty > div:nth-child(4):hover ~ .stars-full {
+  left: -107px;
+}
+.stars-empty > div:nth-child(5):hover ~ .stars-full {
+  left: -4px;
+}
