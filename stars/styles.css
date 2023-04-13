@@ -9,25 +9,20 @@ body {
   overflow: hidden;
 }
 
-.stars-full {
-  position: absolute;
-  width: 550px;
-  left: -550px;
-  top: 0;
-}
-
 .stars-empty > div:not(.stars-full) {
   display: inline-block;
   margin-right: 25px;
   height: 77px;
   width: 74px;
-  vertical-align: top;
   background: url("assets/star0.png") no-repeat;
   cursor: pointer;
 }
 
-.stars-empty > div {
-  margin-right: 25px;
+.stars-full {
+  position: absolute;
+  top: 0;
+  left: -550px;
+  width: 550px;
 }
 
 .stars-full > div {
