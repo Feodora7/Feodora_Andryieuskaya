@@ -1,8 +1,10 @@
 body {
   height: 100vh;
+  text-align: center;
 }
 .stars {
   display: inline-block;
+  margin-top: 100px;
 }
 .stars > div {
   display: inline-block;
