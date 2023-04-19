@@ -17,7 +17,7 @@ body {
 .menu {
   width: 300px;
   float: left;
-  background: yellow top left;
+  background-color: rgb(178, 146, 232) top left;
   padding-bottom: 500em;
   margin-bottom: -500em;
 }
