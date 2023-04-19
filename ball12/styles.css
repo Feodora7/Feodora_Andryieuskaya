@@ -2,46 +2,32 @@
   height: 50vh;
   padding: 20px;
 }
+
+.ball-img {
+  background-image: url(assets/ball.png), url(assets/ball.png),
+    url(assets/ball.png), url(assets/ball.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top left, top right, bottom left, bottom right;
+  background-size: 70px;
+}
+
 .menu {
   float: left;
-
   width: 20%;
   background-color: #3e54ac;
+  height: 100%;
 }
 
 .content {
   margin-left: 20%;
   margin-right: 200px;
   background-color: #bface2;
+  height: 100%;
 }
 
 .banner {
   float: right;
   width: 200px;
-  background: #655dbb;
-}
-.ball-wrapper {
-  position: relative;
+  background-color: #655dbb;
   height: 100%;
-}
-
-.ball-wrapper img {
-  position: absolute;
-  width: 100px;
-}
-.ball-wrapper img:first-child {
-  top: 0;
-  left: 0;
-}
-.ball-wrapper img:nth-child(2) {
-  top: 0;
-  right: 0;
-}
-.ball-wrapper img:nth-child(3) {
-  bottom: 0;
-  left: 0;
-}
-.ball-wrapper img:last-child {
-  bottom: 0;
-  right: 0;
 }
