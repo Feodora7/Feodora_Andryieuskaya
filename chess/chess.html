@@ -26,11 +26,15 @@
         background: white;
       }
 
-      table tr:first-child td,
-      table tr:last-child td,
-      table tr td:first-child,
-      table tr td:last-child {
-        background: rgb(123, 185, 223) !important;
+      table tr:first-child td:nth-child(even),
+      table tr:first-child td:nth-child(odd),
+      table tr:last-child td:nth-child(even),
+      table tr:last-child td:nth-child(odd),
+      table tr:nth-child(odd) td:first-child,
+      table tr:nth-child(even) td:first-child,
+      table tr:nth-child(odd) td:last-child,
+      table tr:nth-child(even) td:last-child {
+        background: rgb(123, 185, 223);
         width: 10px;
         height: 10px;
       }
