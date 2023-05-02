@@ -1,10 +1,23 @@
-.main-container {
+body {
+  font-family: "Roboto";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .header {
+  background-color: #313131;
+  margin-bottom: 20px;
   padding-left: 140px;
   padding-right: 120px;
-  background-color: #313131;
 }
 
 .header ul li {
@@ -32,17 +45,101 @@
   content: url(../assets/delivery-icon.png);
 }
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.main {
 }
 
-.content-wrapper {
-  width: 1400px;
+.menu {
+  margin-bottom: 20px;
+}
+.logo {
+  float: left;
+  width: 112.96px;
+  height: 50px;
+  margin-right: 38px;
+  background: url(../assets/LOGO.png) no-repeat center;
 }
 
-a {
-  color: white;
+input {
+  float: left;
+  width: 834px;
+  height: 50px;
+  margin-right: 37px;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  text-indent: 40px;
+  background: url(../assets/search-icon.png) no-repeat 15px 18px;
+}
+.profile {
+  float: right;
+  height: 50px;
+}
+
+.profile-icon:not(:last-child) {
+  margin-right: 20px;
+}
+.profile-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 21px;
+  cursor: pointer;
+}
+.profile-icon:nth-of-type(1) {
+  background-image: url(../assets/wishlist-icon.png);
+}
+.profile-icon:nth-of-type(2) {
+  background-image: url(../assets/bag.png);
+}
+.profile-icon:nth-of-type(3) {
+  background-image: url(../assets/profile-icon.png);
+}
+
+.navigation {
+  padding: 24px 40px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+.navigation > li {
+  display: inline-block;
+  text-indent: 33px;
   text-decoration: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.navigation > li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation > li:nth-of-type(1) {
+  background-image: url(../assets/kitchen-icon.png);
+}
+.navigation > li:nth-of-type(2) {
+  background-image: url(../assets/bedroom-icon.png);
+}
+.navigation > li:nth-of-type(3) {
+  background-image: url(../assets/livingroom-icon.png);
+}
+.navigation > li:nth-of-type(4) {
+  background-image: url(../assets/closet-icon.png);
+}
+.navigation > li:nth-of-type(5) {
+  background-image: url(../assets/office-icon.png);
+}
+.navigation > li:nth-of-type(6) {
+  background-image: url(../assets/childrensroom-icon.png);
+}
+.navigation > li:nth-of-type(7) {
+  margin-right: 45px;
+  text-indent: 0;
+}
+.navigation > li:nth-of-type(8) {
+  width: 1.27;
+  height: 15px;
+  background-image: url(../assets/etc.png);
+  background-position: right;
 }
