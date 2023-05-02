@@ -40,9 +40,13 @@ a {
 
 .header-right li:nth-child(1)::before {
   content: url(../assets/phone.png);
+  position: relative;
+  top: 3px;
 }
 .header-right li:nth-child(2)::before {
   content: url(../assets/delivery-icon.png);
+  position: relative;
+  top: 3px;
 }
 
 .container {
@@ -78,10 +82,10 @@ input {
   height: 50px;
 }
 
-.profile-icon:not(:last-child) {
+.profile > span:not(:last-child) {
   margin-right: 20px;
 }
-.profile-icon {
+.profile > span {
   display: inline-block;
   background-repeat: no-repeat;
   background-position: center;
@@ -89,13 +93,13 @@ input {
   width: 21px;
   cursor: pointer;
 }
-.profile-icon:nth-of-type(1) {
+.profile > span:nth-of-type(1) {
   background-image: url(../assets/wishlist-icon.png);
 }
-.profile-icon:nth-of-type(2) {
+.profile > span:nth-of-type(2) {
   background-image: url(../assets/bag.png);
 }
-.profile-icon:nth-of-type(3) {
+.profile > span:nth-of-type(3) {
   background-image: url(../assets/profile-icon.png);
 }
 
