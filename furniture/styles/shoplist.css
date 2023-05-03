@@ -1,4 +1,5 @@
 .shoplist {
+  margin-bottom: 42px;
 }
 .shoplist > p {
   margin-bottom: 30px;
@@ -6,10 +7,7 @@
 
 .shoplist .item {
   display: inline-block;
-  padding-top: 21px;
-  padding-left: 32px;
-  padding-right: 31px;
-  padding-bottom: 20px;
+  padding: 32px 31px 20px 31px;
   width: 263px;
   height: 380px;
   border: 1px solid rgb(200, 137, 187);
@@ -53,10 +51,9 @@
 
 .shoplist .dimension {
   opacity: 0;
-  border: 1px solid red;
 }
 
-.shoplist:hover .dimension {
+.item:hover .dimension {
   opacity: 1;
 }
 .shoplist .item .dimension > p:first-child {
@@ -100,7 +97,3 @@
 .dimension button:hover {
   background: #214955;
 }
-
-/* height: 488px;
-background: #FFFFFF;
-box-shadow: 0px rgb(30, 68, 80) rgba(0, 0, 0, 0.11); */
