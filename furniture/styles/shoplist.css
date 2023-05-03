@@ -7,10 +7,24 @@
 
 .shoplist .item {
   display: inline-block;
-  padding: 32px 31px 20px 31px;
+  box-sizing: border-box;
+  padding: 21px 20px 20px 20px;
+
   width: 263px;
-  height: 380px;
+  height: 349px;
   border: 1px solid rgb(200, 137, 187);
+}
+.shoplist
+  .item:not(
+    :nth-child(5),
+    :nth-child(9),
+    :nth-child(13),
+    :nth-child(17),
+    :nth-child(20),
+    :nth-child(24),
+    :nth-child(28)
+  ) {
+  margin-right: 25px;
 }
 
 .shoplist .item > span:nth-of-type(1) {
@@ -25,19 +39,45 @@
   width: 200px;
   height: 150px;
   clear: both;
+  margin: 0 auto;
   margin-bottom: 54px;
-  background: url(../assets/1.png) no-repeat;
+
   background-position: center left 30px;
+}
+.shoplist .item:nth-child(2) > .image {
+  background: url(../assets/1.png) no-repeat;
+}
+
+.shoplist .item:nth-child(3) > .image {
+  background: url(../assets/2.png) no-repeat;
+}
+.shoplist .item:nth-child(4) > .image {
+  background: url(../assets/3.png) no-repeat;
+}
+.shoplist .item:nth-child(5) > .image {
+  background: url(../assets/4.png) no-repeat;
+}
+.shoplist .item:nth-child(6) > .image {
+  background: url(../assets/5.png) no-repeat;
+}
+.shoplist .item:nth-child(7) > .image {
+  background: url(../assets/6.png) no-repeat;
+}
+.shoplist .item:nth-child(8) > .image {
+  background: url(../assets/7.png) no-repeat;
+}
+.shoplist .item:nth-child(9) > .image {
+  background: url(../assets/8.png) no-repeat;
 }
 
 .shoplist .item span:nth-of-type(2) {
   display: block;
-  padding-bottom: 6px;
+  margin-bottom: 6px;
   line-height: 19px;
 }
 .shoplist .item span:nth-of-type(3) {
   display: block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
   font-size: 11px;
   line-height: 13px;
 }
@@ -50,12 +90,17 @@
 }
 
 .shoplist .dimension {
-  opacity: 0;
+  opacity: 1;
 }
 
 .item:hover .dimension {
   opacity: 1;
 }
+.item:hover {
+  height: 488px;
+  box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
+}
+
 .shoplist .item .dimension > p:first-child {
   margin-bottom: 8px;
   font-size: 12px;
@@ -72,13 +117,16 @@
   line-height: 11px;
   color: rgba(118, 119, 119, 0.5);
 }
+
+.dimension {
+}
 .dimension .heigth {
   display: inline-block;
 }
 .dimension .width,
 .dimension .depth {
   display: inline-block;
-  margin-right: 37px;
+  margin-right: 35px;
 }
 
 .shoplist .dimension div:first-child {
@@ -87,8 +135,8 @@
 .dimension button {
   width: 223px;
   height: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding: 0;
+  margin-bottom: 20px;
   color: white;
   cursor: pointer;
   border: none;
