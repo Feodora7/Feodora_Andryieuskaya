@@ -6,7 +6,9 @@ body {
   line-height: 19px;
   background-color: white;
 }
-
+div {
+  box-sizing: border-box;
+}
 a {
   color: white;
   text-decoration: none;
