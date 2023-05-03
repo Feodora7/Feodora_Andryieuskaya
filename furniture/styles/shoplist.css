@@ -1,0 +1,106 @@
+.shoplist {
+}
+.shoplist > p {
+  margin-bottom: 30px;
+}
+
+.shoplist .item {
+  display: inline-block;
+  padding-top: 21px;
+  padding-left: 32px;
+  padding-right: 31px;
+  padding-bottom: 20px;
+  width: 263px;
+  height: 380px;
+  border: 1px solid rgb(200, 137, 187);
+}
+
+.shoplist .item > span:nth-of-type(1) {
+  float: right;
+  width: 22px;
+  height: 19px;
+  margin-bottom: 38px;
+  background: url(../assets/wishlist-icon.png);
+}
+
+.shoplist .item > .image {
+  width: 200px;
+  height: 150px;
+  clear: both;
+  margin-bottom: 54px;
+  background: url(../assets/1.png) no-repeat;
+  background-position: center left 30px;
+}
+
+.shoplist .item span:nth-of-type(2) {
+  display: block;
+  padding-bottom: 6px;
+  line-height: 19px;
+}
+.shoplist .item span:nth-of-type(3) {
+  display: block;
+  padding-bottom: 9px;
+  font-size: 11px;
+  line-height: 13px;
+}
+.shoplist .item span:nth-of-type(4) {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.shoplist .dimension {
+  opacity: 0;
+  border: 1px solid red;
+}
+
+.shoplist:hover .dimension {
+  opacity: 1;
+}
+.shoplist .item .dimension > p:first-child {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.shoplist .item .dimension span {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.opacity p {
+  font-size: 9px;
+  line-height: 11px;
+  color: rgba(118, 119, 119, 0.5);
+}
+.dimension .heigth {
+  display: inline-block;
+}
+.dimension .width,
+.dimension .depth {
+  display: inline-block;
+  margin-right: 37px;
+}
+
+.shoplist .dimension div:first-child {
+  margin-bottom: 17px;
+}
+.dimension button {
+  width: 223px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  background: #245462;
+}
+.dimension button:hover {
+  background: #214955;
+}
+
+/* height: 488px;
+background: #FFFFFF;
+box-shadow: 0px rgb(30, 68, 80) rgba(0, 0, 0, 0.11); */

@@ -1,6 +1,5 @@
 body {
   font-family: "Roboto";
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -26,8 +25,8 @@ h1 {
 }
 
 .clearfix:after {
-  content: "";
   display: block;
+  content: "";
   clear: both;
 }
 
