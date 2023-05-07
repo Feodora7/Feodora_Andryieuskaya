@@ -54,9 +54,13 @@
   float: right;
 }
 .footer-social li {
-  float: left;
+  float: right;
   margin-right: 30px;
 }
+.footer-social li:first-child {
+  margin-right: 0;
+}
+
 .footer-social a {
   color: black;
 }
