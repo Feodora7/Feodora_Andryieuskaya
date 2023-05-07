@@ -23,8 +23,8 @@
   margin-bottom: 10px;
 }
 
-.footer-left .action li {
-  display: inline-block;
+.footer-left .footer-action li {
+  float: left;
   margin-right: 30px;
 }
 .footer-left .footer-action li:first-child {
