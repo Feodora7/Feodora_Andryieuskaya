@@ -63,10 +63,13 @@
 
 .footer-social li:nth-child(1)::before {
   content: url(../assets/phone2.png);
+  cursor: pointer;
 }
 .footer-social li:nth-child(2)::before {
   content: url(../assets/inst.png);
+  cursor: pointer;
 }
 .footer-social li:nth-child(3)::before {
   content: url(../assets/mail.png);
+  cursor: pointer;
 }
