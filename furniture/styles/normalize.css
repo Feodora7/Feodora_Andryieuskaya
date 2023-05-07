@@ -16,9 +16,13 @@ html {
    */
 
 body {
-  margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 /* HTML5 display definitions
      ========================================================================== */
 

@@ -15,16 +15,7 @@
   height: 349px;
   /* border: 1px solid rgb(200, 137, 187); */
 }
-.shoplist
-  .item:not(
-    :nth-child(5),
-    :nth-child(9),
-    :nth-child(13),
-    :nth-child(17),
-    :nth-child(20),
-    :nth-child(24),
-    :nth-child(28)
-  ) {
+.shoplist .item:not(:nth-child(4n + 4)) {
   margin-right: 25px;
 }
 
@@ -45,90 +36,90 @@
 
   background-position: center left 30px;
 }
-.shoplist .item:nth-child(2) > .image {
+.shoplist .item:nth-child(1) > .image {
   background: url(../assets/1.png) no-repeat;
 }
 
-.shoplist .item:nth-child(3) > .image {
+.shoplist .item:nth-child(2) > .image {
   background: url(../assets/2.png) no-repeat;
 }
-.shoplist .item:nth-child(4) > .image {
+.shoplist .item:nth-child(3) > .image {
   background: url(../assets/3.png) no-repeat;
 }
-.shoplist .item:nth-child(5) > .image {
+.shoplist .item:nth-child(4) > .image {
   background: url(../assets/4.png) no-repeat;
 }
-.shoplist .item:nth-child(6) > .image {
+.shoplist .item:nth-child(5) > .image {
   background: url(../assets/5.png) no-repeat;
 }
-.shoplist .item:nth-child(7) > .image {
+.shoplist .item:nth-child(6) > .image {
   background: url(../assets/6.png) no-repeat;
 }
-.shoplist .item:nth-child(8) > .image {
+.shoplist .item:nth-child(7) > .image {
   background: url(../assets/7.png) no-repeat;
 }
-.shoplist .item:nth-child(9) > .image {
+.shoplist .item:nth-child(8) > .image {
   background: url(../assets/8.png) no-repeat;
 }
 
-.shoplist .item:nth-child(10) > .image {
+.shoplist .item:nth-child(9) > .image {
   background: url(../assets/9.png) no-repeat;
 }
-.shoplist .item:nth-child(11) > .image {
+.shoplist .item:nth-child(10) > .image {
   background: url(../assets/10.png) no-repeat;
 }
-.shoplist .item:nth-child(12) > .image {
+.shoplist .item:nth-child(11) > .image {
   background: url(../assets/11.png) no-repeat;
 }
-.shoplist .item:nth-child(13) > .image {
+.shoplist .item:nth-child(12) > .image {
   background: url(../assets/12.png) no-repeat;
 }
-.shoplist .item:nth-child(14) > .image {
+.shoplist .item:nth-child(13) > .image {
   background: url(../assets/13.png) no-repeat;
 }
-.shoplist .item:nth-child(15) > .image {
+.shoplist .item:nth-child(14) > .image {
   background: url(../assets/14.png) no-repeat;
 }
-.shoplist .item:nth-child(16) > .image {
+.shoplist .item:nth-child(15) > .image {
   background: url(../assets/15.png) no-repeat;
 }
-.shoplist .item:nth-child(17) > .image {
+.shoplist .item:nth-child(16) > .image {
   background: url(../assets/16.png) no-repeat;
 }
-.shoplist .item:nth-child(18) > .image {
+.shoplist .item:nth-child(17) > .image {
   background: url(../assets/17.png) no-repeat;
 }
-.shoplist .item:nth-child(19) > .image {
+.shoplist .item:nth-child(18) > .image {
   background: url(../assets/18.png) no-repeat;
 }
-.shoplist .item:nth-child(20) > .image {
+.shoplist .item:nth-child(19) > .image {
   background: url(../assets/19.png) no-repeat;
 }
-.shoplist .item:nth-child(21) > .image {
+.shoplist .item:nth-child(20) > .image {
   background: url(../assets/20.png) no-repeat;
 }
-.shoplist .item:nth-child(22) > .image {
+.shoplist .item:nth-child(21) > .image {
   background: url(../assets/21.png) no-repeat;
 }
-.shoplist .item:nth-child(23) > .image {
+.shoplist .item:nth-child(22) > .image {
   background: url(../assets/22.png) no-repeat;
 }
-.shoplist .item:nth-child(24) > .image {
+.shoplist .item:nth-child(23) > .image {
   background: url(../assets/23.png) no-repeat;
 }
-.shoplist .item:nth-child(25) > .image {
+.shoplist .item:nth-child(24) > .image {
   background: url(../assets/24.png) no-repeat;
 }
-.shoplist .item:nth-child(26) > .image {
+.shoplist .item:nth-child(25) > .image {
   background: url(../assets/25.png) no-repeat;
 }
-.shoplist .item:nth-child(27) > .image {
+.shoplist .item:nth-child(26) > .image {
   background: url(../assets/26.png) no-repeat;
 }
-.shoplist .item:nth-child(28) > .image {
+.shoplist .item:nth-child(27) > .image {
   background: url(../assets/27.png) no-repeat;
 }
-.shoplist .item:nth-child(29) > .image {
+.shoplist .item:nth-child(28) > .image {
   background: url(../assets/28.png) no-repeat;
 }
 
@@ -151,6 +142,9 @@
   line-height: 19px;
 }
 
+.dimension {
+  padding-top: 18px;
+}
 .shoplist .dimension {
   opacity: 0;
 }
