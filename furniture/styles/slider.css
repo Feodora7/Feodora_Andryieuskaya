@@ -1,4 +1,4 @@
-.slider {
+.main-slider {
   position: relative;
   width: 1140px;
   height: 450px;
@@ -8,19 +8,19 @@
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.09);
 }
 
-.slider > .info {
+.main-slider > .slider-info {
   width: 280px;
   position: absolute;
   left: 120px;
   top: 100px;
 }
-.slider > .info > p {
+.main-slider > .slider-info > p {
   font-family: "Roboto Condensed";
   line-height: 140.8%;
   color: #343434;
   margin-bottom: 20px;
 }
-.slider > .info > button {
+.main-slider > .slider-info > button {
   padding: 14px 25px;
   margin-bottom: 20px;
   font-family: "Roboto Condensed";
@@ -33,6 +33,6 @@
   border: none;
   cursor: pointer;
 }
-.slider > .info > button:hover {
+.main-slider > .slider-info > button:hover {
   background-color: rgb(219, 217, 217);
 }
